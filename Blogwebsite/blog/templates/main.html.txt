@@ -1,0 +1,10 @@
+{% extends "master.html" %}
+
+{% block content %}
+<h2>All Blogs</h2>
+<ul>
+    {% for blog in blogs %}
+        <li>{{ blog.title }} by {{ blog.author }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

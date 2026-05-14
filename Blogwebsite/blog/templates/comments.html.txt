@@ -1,0 +1,6 @@
+{% extends "master.html" %}
+
+{% block content %}
+<h2>Comments</h2>
+<p>Comments for each blog will appear here.</p>
+{% endblock %}
